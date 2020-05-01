@@ -44,8 +44,9 @@
         /// <param name="end">The end.</param>
         /// <param name="stops">The stops.</param>
         /// <param name="network">The network.</param>
+        /// <param name="matchExact">if set to <c>true</c> [match exact].</param>
         /// <returns></returns>
-        Task<List<(List<T> path, int total)>> TotalRoutesBetweenAcademiesWithStopsAsync(T start, T end, int stops, AcademiesNetwork<T> network);
+        Task<List<(List<T> path, int total)>> TotalRoutesBetweenAcademiesWithStopsAsync(T start, T end, int stops, AcademiesNetwork<T> network, bool matchExact = false);
 
 
         /// <summary>
@@ -55,6 +56,6 @@
         /// <param name="end">The end.</param>
         /// <param name="network">The network.</param>
         /// <returns></returns>
-        int ShortestRouteBetweenAcademies(T start, T end, AcademiesNetwork<T> network);
+        Task<int> ShortestRouteBetweenAcademies(T start, T end, AcademiesNetwork<T> network);
     }
 }
