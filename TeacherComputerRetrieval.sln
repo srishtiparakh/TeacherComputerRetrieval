@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherComputerRetrievalClient", "TeacherComputerRetrievalClient\TeacherComputerRetrievalClient.csproj", "{213A369A-39A0-448B-8505-7996F871E87B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherComputerRetrievalLibrary", "TeacherComputerRetrievalLibrary\TeacherComputerRetrievalLibrary.csproj", "{24C618D3-377F-4A6F-B079-7AF8AD3C9180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{213A369A-39A0-448B-8505-7996F871E87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213A369A-39A0-448B-8505-7996F871E87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213A369A-39A0-448B-8505-7996F871E87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213A369A-39A0-448B-8505-7996F871E87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C618D3-377F-4A6F-B079-7AF8AD3C9180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C618D3-377F-4A6F-B079-7AF8AD3C9180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C618D3-377F-4A6F-B079-7AF8AD3C9180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C618D3-377F-4A6F-B079-7AF8AD3C9180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E88EE4C4-24E3-4B55-9DAC-6A96095D1C19}
+	EndGlobalSection
+EndGlobal
